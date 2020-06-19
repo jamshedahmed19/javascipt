@@ -1,27 +1,19 @@
 // strings in js
 
-console.log("Hello, World");
-let name = "jamshed ahmed";
-console.log(name);
+console.log(19);
+let age = 19;
+console.log(age);
 
-//string concatenation
-let firstName = "Jamshed";
-let lastName = "Ahmed";
-name = firstName + " " + lastName;
-console.log(name);
+//BIDMAS Rule
+let calc = 3 * 3 + (10 - 2) ** 2;
+console.log(calc);
 
-//string length
-console.log(name.length);
+//increment decrement
+console.log(age++);
+age = 19;
+console.log(++age);
 
-//getting characters from a string
-console.log(name[8]);
-
-//string methods
-console.log(name.toUpperCase());
-name = name.toLowerCase();
-console.log(name);
-console.log(name.indexOf("m"));
-console.log(name.replace("m", "n"));
-console.log(name.slice(4, 10));
-console.log(name.substr(4, 10));
-console.log(name.lastIndexOf("m"));
+console.log((age -= 1));
+console.log((age += 1));
+console.log((age *= 2));
+console.log((age /= 2));
