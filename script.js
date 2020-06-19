@@ -1,19 +1,34 @@
-// strings in js
+// arrays in js
 
-console.log(19);
-let age = 19;
+let userName = ["jamshed", "hammad", "uzair", "asfand"];
+console.log(userName);
+
+let age = [19, 17, 20, 21];
 console.log(age);
 
-//BIDMAS Rule
-let calc = 3 * 3 + (10 - 2) ** 2;
-console.log(calc);
+let user = [1, "jamshed", 19];
+console.log(user);
 
-//increment decrement
-console.log(age++);
-age = 19;
-console.log(++age);
+//accessing data in arrays
+console.log(userName[1]);
 
-console.log((age -= 1));
-console.log((age += 1));
-console.log((age *= 2));
-console.log((age /= 2));
+//Overwriting data in array
+userName[2] = "junaid";
+console.log(userName);
+
+//array length
+console.log(age.length);
+
+//array methods
+//adding elements into array -- .push method returns length of array
+let newArr = userName.push("uzair");
+console.log(newArr);
+console.log(userName);
+
+newArr = userName.pop();
+console.log(newArr);
+
+console.log(user.join("-"));
+console.log(userName.indexOf("hammad"));
+
+console.log(userName.concat(["nomir", "asad", "saad"]));
