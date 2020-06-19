@@ -1,2 +1,2 @@
 # javascipt
-learning Javascript
+How to print statements in js
